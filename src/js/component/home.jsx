@@ -8,7 +8,7 @@ import CellFuelText from "./cellFuelText.jsx";
 import Image from "../../img/battery.png";
 
 //Styles
-import text from "../../styles/text.scss";
+// import text from "../../styles/text.scss";
 
 const Home = () => {
 	return (

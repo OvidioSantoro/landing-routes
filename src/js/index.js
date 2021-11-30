@@ -11,6 +11,6 @@ import "../styles/index.scss";
 //import your own components
 import Home from "./component/home.jsx";
 
-ReactDOM.render(<Hello>How are you?</Hello>, document.querySelector("#app"));
+// ReactDOM.render(<Hello>How are you?</Hello>, document.querySelector("#app"));
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
