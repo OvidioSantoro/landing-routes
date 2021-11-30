@@ -1,16 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
 
 // Components
-import CellFuelText from "./cellFuelText.jsx";
+import CellFuelText from "./CellFuelText.jsx";
 
 // Resources
 import Battery from "../../img/battery.png";
 import Skelleton from "../../img/skelletonWithBattery.png";
 
 // Styles
-import Style from "../../styles/slide.scss";
+import Style from "../../styles/component's-scss/slide.scss";
 
 const Slide = () => {
 	return (
