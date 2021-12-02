@@ -42,7 +42,7 @@ const Carousel = () => (
 				{/* Fourth item */}
 				<PlatConVisionSlide />
 				{/* Fifth item */}
-			 	{/* Sixth item */}
+				{/* Sixth item */}
 				<div className="carousel-item">
 					<img
 						src={Car}
