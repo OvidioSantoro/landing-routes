@@ -6,11 +6,12 @@ import ReactDOM from "react-dom";
 import "bootstrap";
 
 //include your index.scss file into the bundle
-import "../styles/index.scss";
+import "./index.scss";
 
 //import your own components
-import Home from "./component/Home.jsx";
+import Carousel from "./view/Carousel.jsx";
+// import CellFuelText from "./component/CellFuelText.jsx";
 
 // ReactDOM.render(<Hello>How are you?</Hello>, document.querySelector("#app"));
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Carousel />, document.querySelector("#app"));
