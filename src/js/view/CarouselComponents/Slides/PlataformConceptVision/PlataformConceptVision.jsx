@@ -10,7 +10,7 @@ const PlatConVisionSlide = () => (
 			alt="Hydrogen battery on car's chasis"
 		/>
 		<div className="carousel-caption d-none d-md-block Plat">
-			<h1>Plataform Concept Vision</h1>
+			<h2>Plataform Concept Vision</h2>
 			<p>
 				The platform has been designed to achieve an unparalleled level
 				of performance: delivering over 500 horsepower, a top speed of

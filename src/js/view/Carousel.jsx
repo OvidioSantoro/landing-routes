@@ -13,12 +13,13 @@ import CarouselButIndicators from "./CarouselComponents/CarouselButtons/Carousel
 import CarControlButtons from "./CarouselComponents/CarouselButtons/CarouselControlButtons/CarouselControlButtons.jsx";
 
 // Resources
-import Skelleton from "./CarouselComponents/Slides/PlataformConceptVision/SkelletonWithBattery.png";
+import Car from "./CarouselComponents/Slides/DesignPack/Car.png";
 
 // Styles
 import Style from "./Carousel.scss";
 
 const Carousel = () => (
+	//TODO: NAVBAR
 	<div className="text-center mt-5 Slide aling-top">
 		<div
 			id="carouselExampleCaptions"
@@ -27,24 +28,31 @@ const Carousel = () => (
 			data-bs-interval="false">
 			{/* Carousel Buttons Indicators */}
 			<CarouselButIndicators />
+
 			{/**
 			 * Main Carousel
 			 */}
 			<div className="carousel-inner">
-				{/* First item */}
+				{/* TODO:First item */}
+
+				{/* TODO:Second item */}
+
+				{/* TODO:Third item */}
 				<CellFuelSlide />
-				{/* Second item */}
+				{/* Fourth item */}
+				<PlatConVisionSlide />
+				{/* Fifth item */}
+			 	{/* Sixth item */}
 				<div className="carousel-item">
 					<img
-						src={Skelleton}
+						src={Car}
 						className="d-block w-100"
 						alt="Hydrogen battery on car's chasis"
 					/>
 					<div className="carousel-caption d-none d-md-block"></div>
 				</div>
-				{/* Third item */}
-				<PlatConVisionSlide />
-				{/* Fourth item */}
+				{/* TODO:Seventh item */}
+				{/* Last item */}
 				<div className="carousel-item">
 					<Footer />
 
@@ -60,3 +68,20 @@ const Carousel = () => (
 );
 
 export default Carousel;
+
+/* <div className="carousel-item">
+					<img
+						src={Skelleton}
+						className="d-block w-100"
+						alt="Hydrogen battery on car's chasis"
+					/>
+					<div className="carousel-caption d-none d-md-block"></div> 
+	</div>				
+*/
+/**
+ * !ROJO
+ * ?Azul
+ * TODO Naranja
+ * @params {array} arrayName
+ * @return lsajdfñlkasf
+ */
