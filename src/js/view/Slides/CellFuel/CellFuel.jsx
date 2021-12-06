@@ -4,7 +4,6 @@ import Battery from "./Battery.png";
 
 import "./CellFuel.scss";
 
-
 const CellFuelSlide = () => (
 	<div className="carousel-item active">
 		<img

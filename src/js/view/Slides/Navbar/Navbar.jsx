@@ -33,7 +33,7 @@ const Navbar = () => {
 							<h5
 								className="offcanvas-title text-white fs-4 fw-bold"
 								id="offcanvasNavbarLabel">
-								M i k i n i
+								M ī k i n i
 							</h5>
 							<button
 								type="button"
