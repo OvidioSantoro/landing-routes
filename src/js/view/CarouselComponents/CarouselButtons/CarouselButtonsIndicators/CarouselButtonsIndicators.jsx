@@ -1,6 +1,8 @@
 import React from "react";
 
-const CarouselButIndicators = () => (
+import "./CarouselButtonsIndicators.scss";
+
+const CarouselBtnIndicators = () => (
 	<div className="carousel-indicators">
 		<button
 			type="button"
@@ -37,4 +39,4 @@ const CarouselButIndicators = () => (
 	</div>
 );
 
-export default CarouselButIndicators;
+export default CarouselBtnIndicators;
