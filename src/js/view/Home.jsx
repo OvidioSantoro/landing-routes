@@ -4,12 +4,13 @@ import React from "react";
 //Slides
 import Navbar from "./Slides/Navbar/Navbar.jsx";
 import NavTabs from "./Nav&Tabs/Nav&Tabs.jsx";
-// import PhilosophySlide from "./Slides/Philosophy/Philosophy.jsx";
-// import HydrogenSlide from "./Slides/Hydrogen/Hydrogen.jsx";
-// import CellFuelSlide from "./Slides/CellFuel/CellFuel.jsx";
-// import PlatConVisionSlide from "./Slides/PlataformConceptVision/PlataformConceptVision.jsx";
-// import DesignOne from "./Slides/DesignPack/DesignOne/DesignOne.jsx";
-// import DesignTwo from "./Slides/DesignPack/DesignTwo/DesignTwo.jsx";
+import PhilosophySlide from "./Slides/Philosophy/Philosophy.jsx";
+import HydrogenSlide from "./Slides/Hydrogen/Hydrogen.jsx";
+import CellFuelSlide from "./Slides/CellFuel/CellFuel.jsx";
+import PlatConVisionSlide from "./Slides/PlataformConceptVision/PlataformConceptVision.jsx";
+import DesignOne from "./Slides/DesignPack/DesignOne/DesignOne.jsx";
+import DesignTwo from "./Slides/DesignPack/DesignTwo/DesignTwo.jsx";
+import Contact from "./Contact&Footer/Contact.jsx";
 
 // import Footer from "./Slides/Footer/Footer.jsx";
 
@@ -23,8 +24,11 @@ import "./Home.scss";
 
 const Home = () => (
 	//TODO: NAVBAR
-	// <Navbar />
-	<NavTabs />
+	<>
+		<Navbar />
+		{/* <PhilosophySlide /> */}
+		<Contact />
+	</>
 );
 
 export default Home;

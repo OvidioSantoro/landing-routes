@@ -1,6 +1,7 @@
 import React from "react";
 
-import Navbar from "../Slides/Navbar/Navbar";
+// import Navbar from "../Slides/Navbar/Navbar.jsx";
+import Philosophy from "../Slides/Philosophy/Philosophy.jsx";
 
 import "./Nav&Tabs.scss";
 
@@ -68,7 +69,7 @@ const NavTabs = () => (
 				id="home"
 				role="tabpanel"
 				aria-labelledby="home-tab">
-				...
+				<Philosophy />
 			</div>
 			<div
 				className="tab-pane"

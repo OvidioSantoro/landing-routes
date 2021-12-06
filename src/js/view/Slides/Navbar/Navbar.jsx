@@ -5,7 +5,7 @@ import Hextasium from "./HextasiumLogo.png";
 const Navbar = () => {
 	return (
 		<>
-			<nav className="navbar navbar-dark fixed-top">
+			<nav className="navbar navbar-dark bg-transparent fixed-top">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#">
 						<img
