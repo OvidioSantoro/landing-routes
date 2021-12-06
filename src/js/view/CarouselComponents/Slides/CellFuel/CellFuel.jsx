@@ -5,7 +5,7 @@ import Battery from "./Battery.png";
 const CellFuelSlide = () => {
 	return (
 		<>
-			<div className="carousel-item active">
+			<div className="carousel-item active" id="FuelCell">
 				<img
 					src={Battery}
 					className="d-block w-100"

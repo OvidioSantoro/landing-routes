@@ -3,7 +3,7 @@ import React from "react";
 import FrontCar from "./FrontCar.png";
 
 const DesignOne = () => (
-    <div className="carousel-item active">
+    <div className="carousel-item active" id="DesignOne">
         <img src={Battery}
             className="d-block w-100"
             alt="Hydrogen Fuel Battery"/>
