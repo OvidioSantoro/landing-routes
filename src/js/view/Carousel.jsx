@@ -1,5 +1,12 @@
 import React from "react";
 
+
+// Components
+//Slides
+import Navbar from "./CarouselComponents/Slides/Navbar/Navbar.jsx";
+import PhilosophySlide from "./CarouselComponents/Slides/Philosophy/Philosophy.jsx";
+import HydrogenSlide from "./CarouselComponents/Slides/Hydrogen/Hydrogen.jsx";
+>>>>>>> d59ff84219b03f56757b6dcffa903645a77c118a
 import CellFuelSlide from "./CarouselComponents/Slides/CellFuel/CellFuel.jsx";
 import PlatConVisionSlide from "./CarouselComponents/Slides/PlataformConceptVision/PlataformConceptVision.jsx";
 import DesignOne from "./CarouselComponents/Slides/DesignPack/DesignOne/DesignOne.jsx";
@@ -11,10 +18,12 @@ import CarouselBtnIndicators from "./CarouselComponents/CarouselButtons/Carousel
 import CarControlButtons from "./CarouselComponents/CarouselButtons/CarouselControlButtons/CarouselControlButtons.jsx";
 
 import Car from "./CarouselComponents/Slides/DesignPack/Car.png";
+import Hextasium from "./CarouselComponents/Slides/Navbar/HextasiumLogo.png";
+
 
 import "./Carousel.scss";
 
-const Carousel = () => (
+
 	const HextasiumCarousel = () => (
     //TODO: NAVBAR
     <div className="text-center mt-5 Slide aling-top">
@@ -64,7 +73,7 @@ const Carousel = () => (
     </div>
   );
   
-  export default HextasiumCarousel;
-);
+export default HextasiumCarousel;
 
-export default Carousel;
+
+

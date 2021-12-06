@@ -5,6 +5,7 @@ import FrontCar from "./FrontCar.png";
 import "./DesignOne.scss";
 
 const DesignOne = () => (
+
 	<div className="carousel-item active">
 		<img
 			src={FrontCar}
@@ -22,6 +23,7 @@ const DesignOne = () => (
 			</span>
 		</div>
 	</div>
+
 );
 
 export default DesignOne;
