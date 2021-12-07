@@ -12,6 +12,8 @@ import DesignOne from "./Slides/DesignPack/DesignOne/DesignOne.jsx";
 import DesignTwo from "./Slides/DesignPack/DesignTwo/DesignTwo.jsx";
 import Contact from "./Contact&Footer/Contact.jsx";
 
+import NavTabsTest from "./NavTabsTest.jsx";
+
 // import Footer from "./Slides/Footer/Footer.jsx";
 
 // import CarouselBtnIndicators from "./CarouselComponents/CarouselButtons/CarouselButtonsIndicators/CarouselButtonsIndicators.jsx";
@@ -25,9 +27,7 @@ import "./Home.scss";
 const Home = () => (
 	//TODO: NAVBAR
 	<>
-		<Navbar />
-		{/* <PhilosophySlide /> */}
-		<Contact />
+		<NavTabsTest />
 	</>
 );
 
