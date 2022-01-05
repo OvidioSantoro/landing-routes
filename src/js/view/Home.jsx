@@ -1,7 +1,5 @@
 import React from "react";
 
-// Components
-//Slides
 import Navbar from "./Slides/Navbar/Navbar.jsx";
 import PhilosophySlide from "./Slides/Philosophy/Philosophy.jsx";
 import HydrogenSlide from "./Slides/Hydrogen/Hydrogen.jsx";
@@ -11,10 +9,8 @@ import DesignOne from "./Slides/DesignPack/DesignOne/DesignOne.jsx";
 import DesignTwo from "./Slides/DesignPack/DesignTwo/DesignTwo.jsx";
 import Contact from "./Slides/Contact&Footer/Contact.jsx";
 
-
 import CarouselBtnIndicators from "./CarouselComponents/CarouselButtons/CarouselButtonsIndicators/CarouselButtonsIndicators.jsx";
 import CarControlButtons from "./CarouselComponents/CarouselButtons/CarouselControlButtons/CarouselControlButtons.jsx";
-
 
 import "./Home.scss";
 
