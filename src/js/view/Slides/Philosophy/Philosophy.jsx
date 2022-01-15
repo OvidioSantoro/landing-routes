@@ -2,16 +2,13 @@ import React from "react";
 
 import PhilosophyHex from "./PhilosophyHex.png";
 
+import "./Philosophy.scss";
+
 const PhilosophySlide = () => {
 	return (
 		<>
-			<div className="carousel-item active" id="philosophy">
-				<img
-					src={PhilosophyHex}
-					className="d-block w-100"
-					alt="Vehicle powered by hydrogen"
-				/>
-				<div className="carousel-caption d-none d-md-block Cell">
+			<div className="" id="philosophy">
+				<div className="Phy">
 					<h2>Hydrogen. Innovation. Technology. Performance</h2>
 					<span>
 						<p>

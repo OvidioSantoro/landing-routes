@@ -2,10 +2,12 @@ import React from "react";
 
 import Hextasium from "./HextasiumLogo.png";
 
+import "./Navbar.scss";
+
 const Navbar = () => {
 	return (
 		<>
-			<nav className="navbar navbar-dark bg-transparent fixed-top">
+			<nav className="navbar navbar-dark fixed-top">
 				<div className="container-fluid">
 					<a className="navbar-brand" href="#">
 						<img

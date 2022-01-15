@@ -2,16 +2,21 @@ import React from "react";
 
 import HydrogenImage from "./HydrogenImage.png";
 
+import "./Hydrogen.scss";
+
 const HydrogenSlide = () => {
 	return (
 		<>
-			<div className="carousel-item active" id="hydrogen">
-				<img
-					src={HydrogenImage}
-					className="d-block w-100"
-					alt="Hydrogen Fuel Battery"
-				/>
-				<div className="carousel-caption d-none d-md-block Cell">
+			<div className="row" id="hydrogen">
+				<div className="col-md-3 col-lg-3"></div>
+				<div className="col-md-6">
+					<img
+						className="img-fluid"
+						src="./HydrogenImage.png"
+						alt="Hydrogen atom representagion"
+					/>
+				</div>
+				<div className="col-md-3 col-lg-3 text-end lh-lg Hy-text">
 					<h2>Hydrogen</h2>
 					<span>
 						<p>
