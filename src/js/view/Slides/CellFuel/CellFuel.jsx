@@ -6,7 +6,7 @@ import "./CellFuel.scss";
 const CellFuelSlide = () => (
 	<div className="CellFuel">
 		<div className="Cell">
-			<h2>Cell Fuel System</h2>
+			<h1>Cell Fuel System</h1>
 			<span>
 				<div className="row lh-lg">
 					<div className="col-md-4 col-lg-4">
@@ -36,7 +36,7 @@ const CellFuelSlide = () => (
 							fossil fuels, because the cleanest system, depending
 							on the source of the electrivity, is electrolysis,
 							which is expensive and highly inefficient.
-							<b>Nontheless</b>, there are new enterprises
+							<b> Nontheless</b>, there are new enterprises
 							starting to get green hydrogen due to new researches
 							and technology advances.
 						</p>

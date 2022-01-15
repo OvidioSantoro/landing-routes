@@ -9,7 +9,7 @@ const PhilosophySlide = () => {
 		<>
 			<div className="" id="philosophy">
 				<div className="Phy">
-					<h2>Hydrogen. Innovation. Technology. Performance</h2>
+					<h1>Hydrogen. Innovation. Technology. Performance</h1>
 					<span>
 						<p>
 							Drawing its values from the DNA of motor racing,

@@ -1,18 +1,18 @@
 import React from "react";
 
-import Skelleton from "./SkelletonWithBattery.png";
+// import Skelleton from "./SkelletonWithBattery.png";
 
 import "./PlataformConceptVision.scss";
 
 const PlatConVisionSlide = () => (
-	<div className="carousel-item">
-		<img
+	<div className="Plat">
+		{/* <img
 			src={Skelleton}
 			className="d-flex w-100"
 			alt="Hydrogen battery on car's chasis"
-		/>
-		<div className="carousel-caption d-none d-md-block Plat">
-			<h2>Platform Concept Vision</h2>
+		/> */}
+		<div className="Plat-text">
+			<h1>Platform Concept Vision</h1>
 			<p>
 				The platform has been designed to achieve an unparalleled level
 				of performance: delivering over 500 horsepower, a top speed of

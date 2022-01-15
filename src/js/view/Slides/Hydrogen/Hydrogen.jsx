@@ -17,7 +17,7 @@ const HydrogenSlide = () => {
 					/>
 				</div>
 				<div className="col-md-3 col-lg-3 text-end lh-lg Hy-text text-wrap">
-					<h2>Hydrogen</h2>
+					<h1>Hydrogen</h1>
 					<span>
 						<p>
 							Hydrogen is a source of life, the lightest element
