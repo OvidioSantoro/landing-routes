@@ -1,15 +1,14 @@
 import React from "react";
 
-import Battery from "./Battery.png";
-
+import Battery from "./batterySmall.png";
 import "./CellFuel.scss";
 
 const CellFuelSlide = () => (
-	<div className="CellFuel bg-transparent">
-		<div className="d-none d-md-block Cell bg-transparent ">
+	<div className="CellFuel">
+		<div className="Cell">
 			<h2>Cell Fuel System</h2>
 			<span>
-				<div className="row bg-transparent lh-lg">
+				<div className="row lh-lg">
 					<div className="col-md-4 col-lg-4">
 						<p className="firstP text-start m-5">
 							The fuel cell system transforms air and hydrogen
@@ -22,7 +21,13 @@ const CellFuelSlide = () => (
 							high-end vehicle.
 						</p>
 					</div>
-					<div className="col-md-4 col-lg-4"></div>
+					<div className="col-md-4 col-lg-4">
+						<img
+							src={Battery}
+							alt="Hydrogen battery cell fuel"
+							className="img-fluid"
+						/>
+					</div>
 					<div className="col-md-4 col-lg-4">
 						<p className="secondP text-end m-5">
 							However, the system for efficiently and rapidly
@@ -31,9 +36,9 @@ const CellFuelSlide = () => (
 							fossil fuels, because the cleanest system, depending
 							on the source of the electrivity, is electrolysis,
 							which is expensive and highly inefficient.
-							Nontheless, there are new enterprises starting to
-							get green hydrogen due to new researches and
-							technology advances.
+							<b>Nontheless</b>, there are new enterprises
+							starting to get green hydrogen due to new researches
+							and technology advances.
 						</p>
 					</div>
 				</div>

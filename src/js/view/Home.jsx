@@ -15,13 +15,19 @@ const Home = () => (
 	<>
 		<div className="text-center mt-5 Slide aling-top bg-transparent bg-dark ">
 			<Navbar />
-			<PhilosophySlide />
-			<HydrogenSlide />
-			{/* <CellFuelSlide /> */}
-			{/* <PlatConVisionSlide /> */}
-			{/* <DesignOne /> */}
-			{/* <DesignTwo /> */}
-			{/* <Contact /> */}
+			<div className="row">
+				<PhilosophySlide />
+			</div>
+			<div className="row">
+				<HydrogenSlide />
+			</div>
+			<div className="row">
+				<CellFuelSlide />
+			</div>
+			<div className="row">{/* <PlatConVisionSlide /> */}</div>
+			<div className="row">{/* <DesignOne /> */}</div>
+			<div className="row">{/* <DesignTwo /> */}</div>
+			<div className="row">{/* <Contact /> */}</div>
 		</div>
 	</>
 );

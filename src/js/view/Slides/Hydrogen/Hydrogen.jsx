@@ -16,7 +16,7 @@ const HydrogenSlide = () => {
 						alt="Hydrogen atom representagion"
 					/>
 				</div>
-				<div className="col-md-3 col-lg-3 text-end lh-lg Hy-text">
+				<div className="col-md-3 col-lg-3 text-end lh-lg Hy-text text-wrap">
 					<h2>Hydrogen</h2>
 					<span>
 						<p>
