@@ -30,7 +30,9 @@ const Home = () => (
 			<div className="row">
 				<DesignOne />
 			</div>
-			<div className="row">{/* <DesignTwo /> */}</div>
+			<div className="row">
+				<DesignTwo />
+			</div>
 			<div className="row">{/* <Contact /> */}</div>
 		</div>
 	</>
