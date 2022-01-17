@@ -5,7 +5,7 @@ import React from "react";
 import "./PlataformConceptVision.scss";
 
 const PlatConVisionSlide = () => (
-	<div className="Plat" >
+	<div className="Plat">
 		<div className="Plat-text">
 			<h1>Platform Concept Vision</h1>
 			<p>
