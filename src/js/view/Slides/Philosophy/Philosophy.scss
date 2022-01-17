@@ -1,0 +1,31 @@
+#philosophy 
+{
+    color: rgb(255, 245, 230);
+    position: absolute;
+    top: 20%;
+    background-image: url("./PhilosophyHex.png");
+    background-size: cover;
+    background-color: #0a0a0c;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    height: 90%;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 767px) {
+  #philosophy  {
+      background-image: url("./PhilosophyHex.png");
+      background-size: contain;
+      background-color: #0a0a0c;
+      background-repeat: no-repeat;
+    }
+}
+
+#philosophy p {
+  font-size: 25px;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}

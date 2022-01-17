@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color:#0a0a0c;
+}
+// .img {
+//     size: 100%;
+//     z-index: 100;
+// }
+// .carousel-caption {
+//     background: none;
+// }
+// .carousel {
+//     size: 10%;
+// }
+.car-img{
+    position: absolute;
+    width: 100%;
+    top: 385%;
+}
+h1 {
+    margin: auto;
+
+}
+p {
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+  }
