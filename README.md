@@ -27,5 +27,5 @@ Ending with a high quality last **`Contact & Footer`** slide.
 
 <img src="https://avatars.githubusercontent.com/u/90447329?v=4" alt="Keikeka profile" width="100px"> <img src="https://avatars.githubusercontent.com/u/90191991?v=4" alt="Keikeka profile" width="100px">
 
------[Keikeka](http://https://github.com/keikeka "Keikeka")---------[AslanSN](http://https://github.com/AslanSN "AslanSN")
+---[Keikeka](http://https://github.com/keikeka "Keikeka")--------[AslanSN](http://https://github.com/AslanSN "AslanSN")
 
