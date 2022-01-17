@@ -1,11 +1,21 @@
+.ContactSlide{
+    position: absolute;
+    top: 545%;
+    width: 100%;
+}
+.ContactSlide .row{
+    width: 100%;
+}
 .content{
     display: block;
     width: min-content;
-    
 }
 
+.contact{
+    font-size: 25px
+}
 .contact span{
-    font-size: medium;
+    
     color:rgb(112, 126, 129);
 }
 .contact .subs{
@@ -13,7 +23,4 @@
 }
 .highlight{
     color: rgb(10, 246, 180);
-}
-a {
-    font-size: medium;
 }

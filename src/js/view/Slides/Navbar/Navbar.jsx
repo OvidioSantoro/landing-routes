@@ -50,36 +50,50 @@ const Navbar = () => {
 									<a
 										className="nav-link active fs-4 fw-bold"
 										aria-current="page"
-										href="#philosophyslide">
+										href="#philosophy">
 										1. Philosophy
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#Hydrogen">
+										href="#hydrogen">
 										2. Hydrogen
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#Fuel Cell">
-										3. Fuel Cell / Platform
+										href="#cellFuel">
+										3. Fuel Cell & Platform
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#Design">
-										4. Design
+										href="#design1">
+										4. Design A
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#Contact">
-										5. Contact
+										href="#car">
+										5. Car
+									</a>
+								</li>
+								<li className="nav-item">
+									<a
+										className="nav-link fs-4 fw-bold"
+										href="#design2">
+										6. Design B
+									</a>
+								</li>
+								<li className="nav-item">
+									<a
+										className="nav-link fs-4 fw-bold"
+										href="#contact">
+										7. Contact
 									</a>
 								</li>
 							</ul>

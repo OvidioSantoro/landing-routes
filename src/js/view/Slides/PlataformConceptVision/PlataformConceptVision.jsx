@@ -5,12 +5,7 @@ import React from "react";
 import "./PlataformConceptVision.scss";
 
 const PlatConVisionSlide = () => (
-	<div className="Plat">
-		{/* <img
-			src={Skelleton}
-			className="d-flex w-100"
-			alt="Hydrogen battery on car's chasis"
-		/> */}
+	<div className="Plat" >
 		<div className="Plat-text">
 			<h1>Platform Concept Vision</h1>
 			<p>

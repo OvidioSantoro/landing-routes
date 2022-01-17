@@ -3,7 +3,7 @@ import React from "react";
 import "./DesignOne.scss";
 
 const DesignOne = () => (
-	<div className="Design-1">
+	<div className="Design-1" id="design1">
 		<div className="row">
 			<div className="col-md-3 col-lg-3"></div>
 			<div className="col-md-3 col-lg-3"></div>

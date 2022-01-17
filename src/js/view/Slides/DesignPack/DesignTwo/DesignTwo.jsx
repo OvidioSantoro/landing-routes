@@ -3,7 +3,7 @@ import React from "react";
 import "./DesignTwo.scss";
 
 const DesignTwo = () => (
-	<div className="Design-2">
+	<div className="Design-2" id="design2">
 		<div className="">
 			<div className="col-md-6 col-lg-6 Design-2-text">
 				<h1>Design dynamic</h1>

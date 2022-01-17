@@ -9,13 +9,15 @@ import DesignOne from "./Slides/DesignPack/DesignOne/DesignOne.jsx";
 import DesignTwo from "./Slides/DesignPack/DesignTwo/DesignTwo.jsx";
 import Contact from "./Slides/Contact&Footer/Contact.jsx";
 
+import Car from "./Slides/DesignPack/Car.png";
+
 import "./Home.scss";
 
 const Home = () => (
 	<>
 		<div className="text-center mt-5 Slide aling-top bg-transparent bg-dark ">
 			<Navbar />
-			<div className="row">
+			<div className="row ">
 				<PhilosophySlide />
 			</div>
 			<div className="row">
@@ -33,7 +35,16 @@ const Home = () => (
 			<div className="row">
 				<DesignTwo />
 			</div>
-			<div className="row">{/* <Contact /> */}</div>
+			<div className="row car-img" id="car">
+				<img
+					className="img-fluid"
+					src={Car}
+					alt="Hextasium Hikini Car"
+				/>
+			</div>
+			<div className="row">
+				<Contact />
+			</div>
 		</div>
 	</>
 );

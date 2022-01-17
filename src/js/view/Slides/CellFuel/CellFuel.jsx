@@ -4,7 +4,7 @@ import Battery from "./batterySmall.png";
 import "./CellFuel.scss";
 
 const CellFuelSlide = () => (
-	<div className="CellFuel">
+	<div className="CellFuel" id="cellFuel">
 		<div className="Cell">
 			<h1>Cell Fuel System</h1>
 			<span>
