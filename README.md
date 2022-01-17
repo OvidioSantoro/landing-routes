@@ -11,7 +11,7 @@ For this we present:
 ### <img src="https://img.icons8.com/ios/50/000000/wave-lines.png"/>Subtle curves
 ### <img src="https://img.icons8.com/ios-filled/50/000000/anonymous-mask.png"/>Low profile 
 ### <img src="https://img.icons8.com/glyph-neue/50/000000/flex-biceps.png"/>Matt midnight grey's ferocity
-### <img src="https://img.icons8.com/glyph-neue/50/000000/cloud-lighting.png"/> Ready to install power in every cell in your body
+### <img src="https://img.icons8.com/glyph-neue/50/000000/cloud-lighting.png"/> Ready to install power on every cell of your body
 
 ## M ī k i n i
 
