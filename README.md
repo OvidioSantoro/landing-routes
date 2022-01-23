@@ -1,4 +1,8 @@
-# Hextasium Web Page
+# Hextasium Web Page (now with routes!!)
+
+The cutting-edge beauty of the former **M ī k i n i** webpage, but this time, instead of a set of slides in a `Carousel`, each section of the webpage is set in its own page, routing the user through the links in the `navbar` hamburguer menu.
+
+The actual content of the webpage has not been altered, being the same it was in the previous project. The only change is the awesome routing between the different views.
 
 As a brand new car's enterprise, we want you to feel the avant-garde of technology with your own eyes. 
 For this we present:
@@ -17,15 +21,13 @@ For this we present:
 
 ## Coding
 
-Simple responsive **`landing-page`** **cascade displayed** with an translucide `nav-bar` that opens an `off-canvas` menu with the titles of each part of the landing page.
-
-Ending with a high quality last **`Contact & Footer`** slide.
+Simple and minimalistic responsive webpage with an translucide `nav-bar` that opens an `off-canvas` menu with the titles of each part of the  webpage allowing easy navigation (via `React Router`). Ending with a high quality last **`Footer`** slide.
 
 > _Thank you for reading,_
 > 
 > _We hope you to delight it,_
 
-<img src="https://avatars.githubusercontent.com/u/90447329?v=4" alt="Keikeka profile" width="100px"> <img src="https://avatars.githubusercontent.com/u/90191991?v=4" alt="Keikeka profile" width="100px">
+<img src="https://avatars.githubusercontent.com/u/90447329?v=4" alt="Keikeka profile" width="100px"> <img src="https://avatars.githubusercontent.com/u/90191991?v=4" alt="AslanSN profile" width="100px"><img src="https://avatars.githubusercontent.com/u/47760080?v=4" alt="OvidioSantoro profile" width="100px">
 
----[Keikeka](http://https://github.com/keikeka "Keikeka")--------[AslanSN](http://https://github.com/AslanSN "AslanSN")
+---[Keikeka](http://https://github.com/keikeka "Keikeka")-------[AslanSN](http://https://github.com/AslanSN "AslanSN")------[OvidioSantoro](https://github.com/OvidioSantoro "OvidioSantoro")---
 

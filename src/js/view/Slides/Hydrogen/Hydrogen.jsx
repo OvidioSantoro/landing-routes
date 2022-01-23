@@ -8,7 +8,7 @@ const HydrogenSlide = () => {
 	return (
 		<>
 			<div className="row" id="hydrogen">
-				<div className="col-md-3 col-lg-3"></div>
+				<div className="d-sm-none d-lg-block col-lg-2"></div>
 				<div className="col-md-6">
 					<img
 						className="img-fluid"
@@ -16,7 +16,7 @@ const HydrogenSlide = () => {
 						alt="Hydrogen atom representagion"
 					/>
 				</div>
-				<div className="col-md-3 col-lg-3 text-end lh-lg Hy-text text-wrap">
+				<div className="col-md-6 col-lg-4 text-end lh-lg Hy-text text-wrap">
 					<h1>Hydrogen</h1>
 					<span>
 						<p>

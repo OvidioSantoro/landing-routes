@@ -1,18 +1,16 @@
 import React from "react";
 
-import Footer from "./Footer/Footer.jsx";
-
 import Map from "./map.png";
 
 import "./Contact.scss";
 
 const Contact = () => (
 	<>
-		<div className="row mt-5 ContactSlide" id="contact">
+		<div className="row ContactSlide" id="contact">
 			<div className="col-ms-1 col-lg-1"></div>
-			<div className="col-ms-10 col-lg-10 mt-5">
+			<div className="col-ms-10 col-lg-10">
 				<div className="row">
-					<div className=" col-ms-4 col-lg-4 mt-5 contact">
+					<div className=" col-ms-4 col-lg-4 contact">
 						<b className="highlight"> Headquarters </b>
 						<br />
 						<span>
@@ -93,14 +91,13 @@ const Contact = () => (
 					</div>
 					<div className="col-ms-7 col-lg-7 mt-5">
 						<img
-							className="img-fluid"
+							className="img-fluid map-image"
 							src={Map}
 							alt="Map of the zones selling Hextasium Mīkini model car"
 						/>
 					</div>
 					{/*</div> */}
 				</div>
-				<Footer />
 			</div>
 			<div className="col-ms-1 col-lg-1"></div>
 		</div>
