@@ -7,9 +7,9 @@ import "./Navbar.scss";
 const Navbar = () => {
 	return (
 		<>
-			<nav className="navbar navbar-dark fixed-top">
+			<nav className="navbar navbar-dark">
 				<div className="container-fluid">
-					<a className="navbar-brand" href="#">
+					<a className="navbar-brand" href="/">
 						<img
 							src={Hextasium}
 							className="img navbar-logo"
@@ -50,50 +50,57 @@ const Navbar = () => {
 									<a
 										className="nav-link active fs-4 fw-bold"
 										aria-current="page"
-										href="#philosophy">
+										href="/">
 										1. Philosophy
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#hydrogen">
+										href="/hydrogen">
 										2. Hydrogen
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#cellFuel">
+										href="/cellfuel">
 										3. Fuel Cell & Platform
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#design1">
-										4. Design A
+										href="/vision">
+										4. Concept Vision
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#car">
-										5. Car
+										href="/design1">
+										5. Design A
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#design2">
-										6. Design B
+										href="/car">
+										6. Car
 									</a>
 								</li>
 								<li className="nav-item">
 									<a
 										className="nav-link fs-4 fw-bold"
-										href="#contact">
-										7. Contact
+										href="/design2">
+										7. Design B
+									</a>
+								</li>
+								<li className="nav-item">
+									<a
+										className="nav-link fs-4 fw-bold"
+										href="/contact">
+										8. Contact
 									</a>
 								</li>
 							</ul>

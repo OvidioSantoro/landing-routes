@@ -9,7 +9,7 @@ const CellFuelSlide = () => (
 			<h1>Cell Fuel System</h1>
 			<span>
 				<div className="row lh-lg">
-					<div className="col-md-4 col-lg-4">
+					<div className="col-xs-5 col-lg-4">
 						<p className="firstP text-start m-5">
 							The fuel cell system transforms air and hydrogen
 							into energy, two elements that are found abundantly
@@ -21,14 +21,14 @@ const CellFuelSlide = () => (
 							high-end vehicle.
 						</p>
 					</div>
-					<div className="col-md-4 col-lg-4">
+					<div className="col-xs-2 col-lg-4">
 						<img
 							src={Battery}
 							alt="Hydrogen battery cell fuel"
 							className="img-fluid"
 						/>
 					</div>
-					<div className="col-md-4 col-lg-4">
+					<div className="col-xs-5 col-lg-4">
 						<p className="secondP text-end m-5">
 							However, the system for efficiently and rapidly
 							extracting hydrogen from nature is highly polluting.

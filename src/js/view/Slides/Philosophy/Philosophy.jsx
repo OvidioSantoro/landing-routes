@@ -8,7 +8,7 @@ const PhilosophySlide = () => {
 	return (
 		<>
 			<div className="" id="philosophy">
-				<div className="Phy">
+				<div>
 					<h1>Hydrogen. Innovation. Technology. Performance</h1>
 					<span>
 						<p>

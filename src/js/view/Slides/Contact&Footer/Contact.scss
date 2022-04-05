@@ -1,6 +1,4 @@
 .ContactSlide{
-    position: absolute;
-    top: 545%;
     width: 100%;
 }
 .ContactSlide .row{
@@ -12,7 +10,7 @@
 }
 
 .contact{
-    font-size: 25px
+    font-size: larger;
 }
 .contact span{
     
@@ -23,4 +21,8 @@
 }
 .highlight{
     color: rgb(10, 246, 180);
+}
+.map-image{
+    max-height: 70vh;
+    width: 70vw;
 }
